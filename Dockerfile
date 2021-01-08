@@ -1,4 +1,5 @@
-FROM debian:8.8
+# We may want to run node commands using this instance
+FROM node:14.15.0
 
 COPY ssh_config /etc/ssh/ssh_config
 
